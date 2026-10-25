@@ -1,141 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#090909">
-  <meta name="description" content="Ek888 — Gaming and entertainment hub.">
-  <title>Ek888 | Gaming & Entertainment</title>
-  <style>
-    :root{--bg:#090909;--panel:#141414;--panel2:#1b1b1b;--gold:#e9bd55;--gold2:#ffe4a0;--text:#f7f4ec;--muted:#aaa49a;--line:#35302a}
-    *{box-sizing:border-box} html{scroll-behavior:smooth}
-    body{margin:0;background:radial-gradient(ellipse at top,#211a0b 0,#090909 42%);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-    button,input,textarea{font:inherit} a{color:inherit;text-decoration:none}
-    .wrap{max-width:1050px;margin:auto;padding:0 16px}
-    header{position:sticky;top:0;z-index:5;background:#090909ed;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
-    .nav{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:12px}
-    .brand{font-weight:900;letter-spacing:1.5px;font-size:1.5rem;color:var(--gold)}
-    .brand span{color:#fff}
-    nav{display:flex;gap:14px;flex-wrap:wrap;justify-content:flex-end}
-    nav a{font-size:.9rem;color:#ded8cb}
-    nav a:hover{color:var(--gold)}
-    .hero{padding:58px 0 34px;text-align:center}
-    .eyebrow{color:var(--gold);letter-spacing:3px;text-transform:uppercase;font-size:.75rem;font-weight:800}
-    h1{font-size:clamp(2.3rem,9vw,4.8rem);line-height:1.02;margin:14px 0}
-    h1 em{font-style:normal;color:var(--gold)}
-    .lead{max-width:600px;margin:0 auto 24px;color:var(--muted);line-height:1.7}
-    .actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
-    .btn{border:1px solid var(--gold);background:var(--gold);color:#16110a;padding:12px 18px;border-radius:10px;font-weight:800;cursor:pointer;display:inline-flex;justify-content:center;align-items:center}
-    .btn.secondary{background:transparent;color:var(--gold)}
-    .section{padding:28px 0}
-    .section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:16px}
-    h2{font-size:1.55rem;margin:0} .hint{font-size:.85rem;color:var(--muted)}
-    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
-    .card{background:linear-gradient(145deg,#1c1a15,#111);border:1px solid var(--line);border-radius:16px;padding:18px;min-width:0}
-    .game-icon{height:88px;border-radius:12px;display:grid;place-items:center;font-size:2.5rem;background:linear-gradient(135deg,#3a2a0b,#16120b);border:1px solid #57431b;margin-bottom:14px}
-    .card h3{margin:0 0 7px}.card p{margin:0 0 14px;color:var(--muted);font-size:.92rem;line-height:1.55}
-    .small-btn{width:100%;padding:10px;border-radius:9px;border:1px solid #65501f;background:#201a0c;color:var(--gold2);font-weight:700;cursor:pointer}
-    .two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-    label{display:block;font-size:.9rem;color:#ded8cb;margin:12px 0 6px}
-    input,textarea{width:100%;padding:12px;border-radius:9px;border:1px solid #484034;background:#0b0b0b;color:white;outline:none}
-    input:focus,textarea:focus{border-color:var(--gold)} textarea{min-height:100px;resize:vertical}
-    .notice{border:1px solid #5b4820;background:#211a0d;color:#e9d8aa;padding:12px;border-radius:10px;font-size:.88rem;line-height:1.5}
-    .status{margin-top:12px;color:var(--gold2);font-size:.9rem;min-height:1.3em}
-    footer{margin-top:30px;padding:24px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;text-align:center}
-    .hidden{display:none!important}
-    @media(max-width:650px){.nav{align-items:flex-start;padding:13px 0;flex-direction:column}nav{justify-content:flex-start;gap:12px}.hero{padding-top:42px}.grid{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}.card{padding:13px}.game-icon{height:74px}}
-    @media(max-width:390px){.grid{grid-template-columns:1fr}.section-head{align-items:flex-start;flex-direction:column}}
-  </style>
-</head>
-<body>
-<header>
-  <div class="wrap nav">
-    <a class="brand" href="#home" aria-label="Ek888 Home">EK<span>888</span></a>
-    <nav aria-label="Main navigation">
-      <a href="#games">Games</a><a href="#account">Account</a><a href="#payment">Payment</a><a href="#contact">Contact</a>
-    </nav>
-  </div>
-</header>
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080808"><title>Ek888 | Login</title>
+<style>
+:root{color-scheme:dark;--gold:#f2c14e}*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at top,#30230b,#111 45%,#080808 80%);color:#f8f5ed;font:16px system-ui,sans-serif}header{padding:18px;border-bottom:1px solid #393226;display:flex;justify-content:space-between;gap:10px}.brand{color:var(--gold);font-weight:900;font-size:1.5rem}.tag{color:#bdb7a8;font-size:.8rem}main{width:min(100% - 28px,520px);margin:28px auto}.card{background:#151515;border:1px solid #393226;border-radius:18px;padding:22px;box-shadow:0 16px 45px #0008}h1{margin:0 0 8px}p{color:#bdb7a8;line-height:1.5}.tabs{display:flex;gap:8px;margin:18px 0}button{cursor:pointer;border:0;border-radius:10px;padding:12px 14px;font-weight:750}.tab{flex:1;background:#28251e;color:#eee;border:1px solid #49402e}.tab.active,.primary{background:var(--gold);color:#15110a}label{display:block;margin:14px 0 6px;color:#e9dfc9}input{width:100%;padding:13px 12px;border:1px solid #4b4539;border-radius:10px;background:#0c0c0c;color:white;font-size:1rem}.primary{width:100%;margin-top:18px;font-size:1rem}.message{min-height:24px;font-size:.92rem;margin-top:12px;overflow-wrap:anywhere}.error{color:#ff9e9e}.success{color:#b9f5c7}.hidden{display:none!important}.row{padding:12px 0;border-bottom:1px solid #302b21;overflow-wrap:anywhere}.row b{display:block;color:var(--gold);font-size:.84rem}footer{text-align:center;color:#8e887b;font-size:.8rem;padding:10px 18px 28px}.note{font-size:.8rem}
+</style></head><body>
+<header><div class="brand">EK888</div><div class="tag">Gaming • Entertainment</div></header>
 <main>
-  <section class="hero wrap" id="home">
-    <div class="eyebrow">Play • Explore • Enjoy</div>
-    <h1>Welcome to <em>Ek888</em></h1>
-    <p class="lead">Your black-and-gold gaming and entertainment hub. Discover featured games, manage your demo profile, and get in touch with us.</p>
-    <div class="actions"><a class="btn" href="#games">Explore Games</a><a class="btn secondary" href="#account">Join Ek888</a></div>
-  </section>
-
-  <section class="section wrap" id="games">
-    <div class="section-head"><h2>Featured Games</h2><span class="hint">Entertainment zone</span></div>
-    <div class="grid">
-      <article class="card"><div class="game-icon">🎮</div><h3>Arcade Zone</h3><p>Quick, casual games for a fun break.</p><button class="small-btn" onclick="demoMessage('Arcade Zone')">Explore</button></article>
-      <article class="card"><div class="game-icon">🧩</div><h3>Puzzle Hub</h3><p>Challenge your mind with puzzles and brain teasers.</p><button class="small-btn" onclick="demoMessage('Puzzle Hub')">Explore</button></article>
-      <article class="card"><div class="game-icon">🏆</div><h3>Challenge Arena</h3><p>Track personal goals and friendly challenges.</p><button class="small-btn" onclick="demoMessage('Challenge Arena')">Explore</button></article>
-    </div>
-    <p class="status" id="gameStatus" role="status"></p>
-  </section>
-
-  <section class="section wrap" id="account">
-    <div class="section-head"><h2>Account</h2><span class="hint">Front-end demo</span></div>
-    <div class="two">
-      <div class="card">
-        <h3>Create a demo profile</h3>
-        <p>This prototype only remembers a display name on this device.</p>
-        <form id="profileForm">
-          <label for="displayName">Display name</label><input id="displayName" maxlength="32" placeholder="Enter a nickname" required>
-          <button class="btn" style="margin-top:12px;width:100%" type="submit">Save Demo Profile</button>
-        </form>
-        <div class="status" id="profileStatus" role="status"></div>
-      </div>
-      <div class="card">
-        <h3>Login / Sign up</h3>
-        <div class="notice">Secure login is not connected in this free demo. Do not enter your real password, PIN, OTP, or payment details here.</div>
-        <button class="btn secondary" style="margin-top:14px;width:100%" onclick="alert('Demo only: connect a secure authentication service before launch.')">Login (Demo)</button>
-      </div>
-    </div>
-  </section>
-
-  <section class="section wrap" id="payment">
-    <div class="section-head"><h2>Payment Information</h2><span class="hint">No transactions enabled</span></div>
-    <div class="card">
-      <p>Payment options can be listed here after you choose a legitimate payment provider and set up the required business and security checks.</p>
-      <div class="notice">This version does not accept deposits, process withdrawals, or store financial information. Never share a bKash/Nagad PIN or OTP with a website.</div>
-    </div>
-  </section>
-
-  <section class="section wrap" id="contact">
-    <div class="section-head"><h2>Contact Us</h2><span class="hint">Demo contact form</span></div>
-    <div class="card">
-      <form id="contactForm">
-        <label for="contactName">Your name</label><input id="contactName" maxlength="60" required placeholder="Name">
-        <label for="contactEmail">Email (optional)</label><input id="contactEmail" type="email" placeholder="you@example.com">
-        <label for="message">Message</label><textarea id="message" maxlength="1000" required placeholder="How can we help?"></textarea>
-        <button class="btn" type="submit" style="margin-top:12px;width:100%">Prepare Message</button>
-      </form>
-      <p class="status" id="contactStatus" role="status"></p>
-      <p class="hint">The form currently shows a local demo confirmation; it does not send your message.</p>
-    </div>
-  </section>
-</main>
-<footer><div class="wrap">© <span id="year"></span> Ek888. Gaming & entertainment demo.</div></footer>
-<script>
-  const $ = id => document.getElementById(id);
-  $('year').textContent = new Date().getFullYear();
-  function demoMessage(name){$('gameStatus').textContent = name + ' selected — game links can be added here later.';}
-  $('profileForm').addEventListener('submit', e => {
-    e.preventDefault();
-    const name = $('displayName').value.trim();
-    if (!name) return;
-    try { localStorage.setItem('ek888_demo_name', name); } catch (_) {}
-    $('profileStatus').textContent = 'Demo profile saved on this device as: ' + name;
-  });
-  try {
-    const saved = localStorage.getItem('ek888_demo_name');
-    if (saved) { $('displayName').value = saved; $('profileStatus').textContent = 'Saved demo profile: ' + saved; }
-  } catch (_) {}
-  $('contactForm').addEventListener('submit', e => {
-    e.preventDefault();
-    $('contactStatus').textContent = 'Demo only: your message has not been sent. Connect a form service to receive messages.';
-  });
-</script>
-</body>
-</html>
+<section class="card" id="authCard"><h1>Welcome to Ek888</h1><p>Create an account or log in with your email.</p>
+<div class="tabs"><button class="tab active" id="loginTab" type="button">Login</button><button class="tab" id="signupTab" type="button">Sign Up</button></div>
+<form id="authForm"><div id="nameWrap" class="hidden"><label for="name">Display name</label><input id="name" autocomplete="name" maxlength="40" placeholder="Your name"></div>
+<label for="email">Email address</label><input id="email" type="email" autocomplete="email" required maxlength="254" placeholder="you@example.com">
+<label for="password">Password</label><input id="password" type="password" autocomplete="current-password" required minlength="6" placeholder="At least 6 characters">
+<button class="primary" id="submitBtn" type="submit">Login</button></form><div id="message" class="message" role="status" aria-live="polite"></div>
+<p class="note">Never share your password or verification codes with anyone.</p></section>
+<section class="card hidden" id="profileCard"><h1>Your profile</h1><p>You are signed in to Ek888.</p>
+<div class="row"><b>Display name</b><span id="profileName">—</span></div><div class="row"><b>Email</b><span id="profileEmail">—</span></div><div class="row"><b>Account ID</b><span id="profileUid">—</span></div>
+<button class="primary" id="logoutBtn" type="button">Log out</button><div id="profileMessage" class="message" role="status" aria-live="polite"></div></section>
+</main><footer>Ek888 • Account access powered by Firebase Authentication.</footer>
+<script type="module">
+import {initializeApp} from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+import {getAuth,setPersistence,browserLocalPersistence,createUserWithEmailAndPassword,signInWithEmailAndPassword,updateProfile,onAuthStateChanged,signOut} from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+// Replace these placeholders with the firebaseConfig values from Firebase Console.
+const firebaseConfig={apiKey:"PASTE_API_KEY_HERE",authDomain:"PASTE_PROJECT_ID_HERE.firebaseapp.com",projectId:"PASTE_PROJECT_ID_HERE",storageBucket:"PASTE_STORAGE_BUCKET_HERE",messagingSenderId:"PASTE_MESSAGING_SENDER_ID_HERE",appId:"PASTE_APP_ID_HERE"};
+const $=id=>document.getElementById(id), message=$("message"), profileMessage=$("profileMessage");
+let mode="login",auth=null;
+function msg(el,text,kind=""){el.textContent=text;el.className="message "+kind}
+function setMode(m){mode=m;const signup=m==="signup";$("loginTab").classList.toggle("active",!signup);$("signupTab").classList.toggle("active",signup);$("nameWrap").classList.toggle("hidden",!signup);$("name").required=signup;$("password").autocomplete=signup?"new-password":"current-password";$("submitBtn").textContent=signup?"Create account":"Login";msg(message,"")}
+$("loginTab").onclick=()=>setMode("login");$("signupTab").onclick=()=>setMode("signup");
+function friendly(e){const m={"auth/invalid-email":"Enter a valid email address.","auth/weak-password":"Use at least 6 characters for your password.","auth/email-already-in-use":"This email already has an account. Try Login.","auth/invalid-credential":"Email or password is incorrect.","auth/user-not-found":"No account found. Try Sign Up.","auth/wrong-password":"Email or password is incorrect.","auth/too-many-requests":"Too many attempts. Wait and try again.","auth/network-request-failed":"Network problem. Check your internet.","auth/unauthorized-domain":"Add your GitHub Pages domain to Firebase Authentication authorized domains."};return m[e.code]||"Could not complete this action. Check Firebase settings and try again."}
+const incomplete=Object.values(firebaseConfig).some(v=>v.startsWith("PASTE_"));
+if(incomplete){msg(message,"Setup needed: replace the firebaseConfig placeholders with your Firebase Web App config.","error");$("submitBtn").disabled=true}
+else{try{auth=getAuth(initializeApp(firebaseConfig));await setPersistence(auth,browserLocalPersistence)}catch(e){msg(message,"Firebase configuration error. Check the config values.","error");$("submitBtn").disabled=true}}
+$("authForm").addEventListener("submit",async e=>{e.preventDefault();if(!auth)return;$("submitBtn").disabled=true;msg(message,"Please wait…");try{const email=$("email").value.trim(),password=$("password").value;if(mode==="signup"){const displayName=$("name").value.trim();if(!displayName)throw Error("Please enter a display name.");const result=await createUserWithEmailAndPassword(auth,email,password);await updateProfile(result.user,{displayName})}else await signInWithEmailAndPassword(auth,email,password)}catch(e){msg(message,e.code?friendly(e):e.message,"error")}finally{$("submitBtn").disabled=false}});
+if(auth)onAuthStateChanged(auth,user=>{if(!user){$("authCard").classList.remove("hidden");$("profileCard").classList.add("hidden");return}$("profileName").textContent=user.displayName||"Not set";$("profileEmail").textContent=user.email||"Not available";$("profileUid").textContent=user.uid;$("authCard").classList.add("hidden");$("profileCard").classList.remove("hidden")});
+$("logoutBtn").onclick=async()=>{try{await signOut(auth);msg(profileMessage,"Logged out.","success")}catch(e){msg(profileMessage,friendly(e),"error")}};
+</script></body></html>
